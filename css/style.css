@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -856,6 +864,10 @@ video {
     width: 33.333333%;
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -864,6 +876,10 @@ video {
   .sm\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 }
 
