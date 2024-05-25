@@ -10,7 +10,7 @@
 
 <body class="bg-slate-50 dark:bg-black dark:text-white">
 
-    <header class="bg-slate-800 text-white w-full h-auto">
+    <header class="bg-slate-800 text-white w-screen h-auto">
         <p class="text-center py-2">Rive For Game UI</p>
     </header>
     <nav class="flex justify-between mx-10">
@@ -18,7 +18,7 @@
             <div class="logo">
                 <img src="./Src/logo.png" alt="">
             </div>
-            <div class="menus mx-3">
+            <div class="menus mx-3 hidden sm:flex">
                 <a href="#" class="mx-2">Products</a>
                 <a href="#" class="mx-2">Pricing</a>
                 <a href="#" class="mx-2">Learn</a>
@@ -27,7 +27,7 @@
 
         </div>
         <div class="rightNav m-3">
-            <button class="btn-bg px-5 py-3 rounded"> Get Started </button>
+            <button class="btn-bg px-2 py-2 sm:px-5 sm:py-3 rounded"> Get Started </button>
         </div>
     </nav>
 
@@ -43,32 +43,32 @@
         <img src="./Src/banner-img.jpg" class="m-auto w-8/12" alt="">
     </section>
 
-    <section class="stateMachine flex my-20 justify-center items-center">
+    <section class="stateMachine text-center sm:flex my-20 justify-center items-center w-screen">
         <div class="left-col mx-30 px-5">
             <p>State Machine</p>
             <p class="text-3xl font-semibold py-4">Interactivity, visualized</p>
-            <p class="w-96">Empower designers to drive functionality that 
+            <p class="w-full sm:w-96">Empower designers to drive functionality that 
                 ships in the final product. </p>
-            <p class="w-96 py-4">The State Machine 
+            <p class="w-full sm:w-96">The State Machine 
                 bridges the gap between design and 
                 development, making iteration a breeze.</p>
-            <button class="btn-bg w-1/3 px-3 py-3 rounded my-3"> Learn More </button>
+            <button class="btn-bg w-36 mx-auto sm:w-1/3 px-3 py-3 rounded my-3"> Learn More </button>
         </div>
-        <div class="right-col mx-30">
-            <img src="./Src/sec-2.png" alt="">
+        <div class="right-col  sm:mx-30">
+            <img src="./Src/sec-2.png" class="mx-auto my-4 w-2/4">
         </div>
     </section>
 
     <!-- section - 3 -->
 
-    <section class="stateMachine flex justify-center my-20">
+    <section class="stateMachine sm:flex justify-center my-20">
         <div class="right-col ">
-            <img src="./Src/sec-3.png" class="mx-auto" >
+            <img src="./Src/sec-3.png" class="mx-auto  w-2/4" >
         </div>
         <div class="left-col flex flex-col justify-center mx-20" >
             <p class="py-3">Animate Anything</p>
             <p class="text-3xl font-semibold">Interactivity, visualized</p>
-            <p class="py-3 w-96 ">
+            <p class="py-3 w-full sm:w-96 ">
                 Empower designers to drive functionality that 
                 ships in the final product. The State Machine 
                 bridges the gap between design and 
@@ -78,10 +78,10 @@
         </div>
     </section>
     
-    <section class="newsletter h-60 flex justify-evenly items-center">
+    <section class="newsletter w-full px-10  h-60 sm:flex justify-evenly items-center">
         <div class="left-col">
             <p class="text-2xl font-semibold py-3">Join our newsletter</p>
-            <p>Get all the latest Rive news delivered to your inbox.</p>
+            <p class="my-4">Get all the latest Rive news delivered to your inbox.</p>
         </div>
         <div class="right-col">
             <input type="text" class="w-60 px-2 rounded h-8" placeholder="Enter Your E-mailID" >
